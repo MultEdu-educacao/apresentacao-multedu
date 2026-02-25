@@ -1,48 +1,54 @@
-# 🚀 MultEdu: High-Performance Mental Arithmetic Engine
+# 🚀 MultEdu - Jacob Trachtenberg System
 
-[![Stack](https://img.shields.io/badge/Stack-Next.js%2015%20|%20Supabase%20|%20TypeScript-blue)](https://github.com/MultEdu-educacao/multedu)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-O **MultEdu** é uma plataforma robusta de EdTech projetada para democratizar o aprendizado de aritmética avançada através da implementação digital do **Método Trachtenberg**. O foco do projeto é entregar uma experiência de alta performance, segura e escalável para dispositivos de baixo custo.
+> **Transformando o ensino da matemática através do Método Trachtenberg.**
+> Focado em ajudar crianças a superarem a dificuldade com a tabuada por meio do cálculo mental rápido e lúdico. 🧮✨
 
 ---
 
-## 🏗️ System Architecture & Infrastructure
+### 🇧🇷 Sobre o Projeto
+* 🎓 **Objetivo:** Desenvolver uma plataforma interativa de alto desempenho para o ensino de aritmética.
+* 🛠️ **Arquitetura:** Sistema fullstack moderno utilizando Next.js 15 e Supabase BaaS.
+* 🔐 **Segurança:** Implementação rigorosa de políticas RLS (Row Level Security) e OpSec.
+* 🏫 **Impacto Social:** Ferramenta Open Source voltada para alunos do Fundamental II da rede pública.
 
-O projeto foi construído utilizando os pilares da engenharia de software moderna para garantir baixa latência e integridade de dados:
-
-* **Backend-as-a-Service (BaaS):** Implementação completa via **Supabase**, utilizando PostgreSQL para persistência de dados e autenticação JWT.
-* **Cloud Computing & Edge:** Deployment e CI/CD automatizados via **Vercel**, aproveitando Edge Functions para otimização de rotas.
-* **Security & OpSec:** Aplicação de **Row Level Security (RLS)** em todas as tabelas, garantindo isolamento total entre usuários no nível de banco de dados.
-* **Mobile-First Core:** UI desenvolvida com **React/Next.js**, otimizada para performance em conexões instáveis e hardware limitado.
-
----
-
-## 🛠️ Key Technical Implementations
-
-### 🔐 Authentication & Identity Management
-Sistema de identidade resiliente integrado ao Supabase Auth, com fluxos de cadastro customizados e tratamento de estados de erro via Server Actions do Next.js.
-
-### 📊 Data Modeling
-Arquitetura de dados focada em escalabilidade:
-* **Profiles:** Extensão do `auth.users` para gestão de XP, níveis e progresso gamificado.
-* **Activity Tracking (Roadmap):** Registro detalhado de métricas de performance e tempo de resposta para análise pedagógica.
-
-### ⚡ Infrastructure as Code (Flow)
-O desenvolvimento segue um fluxo rigoroso de controle de versão:
-1. Sincronização de base (`develop`).
-2. Isolamento de funcionalidades em `feature branches`.
-3. Revisão técnica via **Pull Requests**.
-4. Deploy automático em ambiente de staging/produção.
+### 🇺🇸 About the Project
+* 🎓 **Goal:** Developing a high-performance interactive platform for teaching mental arithmetic.
+* 🛠️ **Architecture:** Modern fullstack system powered by Next.js 15 and Supabase BaaS.
+* 🔐 **Security:** Strict implementation of RLS (Row Level Security) and OpSec policies.
+* 🏫 **Social Impact:** Open Source tool designed for middle school students in public education.
 
 ---
 
-## 👨‍💻 Engineering Team
-O desenvolvimento deste core técnico é liderado por uma equipe de engenharia multidisciplinar da UNIVESP focada em performance e usabilidade:
+### 🛠️ Tecnologias & Ferramentas | Tech Stack
 
-* **Infra & Database:** Elizeu Figueiredo / Carlos Eduardo Januario / Paulo Moreira 
-* **Frontend & UX:** Carlos Eduardo Vernizzi / Carlos Eduardo Januario / Rodrigo Rizzo
-* **Management & Documentation:** Matheus Marques / Clint Walker / Paulo Roberto / Rodrigo Rizzo.
+**Frontend & Frameworks:**
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+**Backend & Infrastructure:**
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Engineering & Security:**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Cybersecurity](https://img.shields.io/badge/OpSec-Verified-red?style=for-the-badge)
 
 ---
-*Este é um projeto Open Source focado em impacto social através da tecnologia.*
+
+### 📅 Road Map | Cronograma
+* [ ] **Plano de Ação:** 15/03/2026 📋
+* [ ] **Relatório Parcial:** 13/04/2026 📝
+* [ ] **Vídeo e Relatório Final:** 24/05/2026 🎥
+
+---
+
+### 👥 Equipe | Team 
+* **Elizeu Figueiredo** (Core Technical Lead & Infrastructure)
+* **Carlos Eduardo Januario** (Frontend & UI/UX)
+* **Carlos Eduardo Vernizzi Silva** (Development)
+* **Clint Walker / Matheus Marques / Paulo Roberto / Rodrigo Rizzo** (Management & Docs)
+
+---
+*Desenvolvido com foco em escalabilidade e democratização do ensino de aritmética.*
